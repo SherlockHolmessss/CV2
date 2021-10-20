@@ -1,25 +1,76 @@
+a {
+  color: #11999E;
+}
+
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  margin-top: 5px;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
 }
 
 h2 {
+  margin: 0;
+  color: #66BFBF;
   font-family: 'Montserrat', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
+  margin: 0;
+  color: #11999E;
   font-family: 'Montserrat', cursive;
 }
 
-.bottomcontainer {
-  background-color: #EAE7C6;
+hr {
+  border-top: 0;
+  border-left: 0;
+  border-right:0;
+  border-bottom: 10px dotted #EAF6F6;
+  width: 10%;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 30px;
   text-align: center;
+}
+
+.bottomcontainer {
+  background-color: #66BFBF;
+  color: white;
+  line-height: 2;
+  text-align: center;
+  padding: 15px;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.contactme {
+  line-height: 1;
+}
+
+.footerlink {
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
 }
 
 .header {
@@ -40,6 +91,10 @@ h3 {
   background-color: #C37B89;
 }
 
+.imgdesign {
+  width: 50%;
+}
+
 .imgengineer {
   position: absolute;
   top: 0;
@@ -48,9 +103,19 @@ h3 {
   width: 100px;
 }
 
+.imgprogramming {
+  width: 50%;
+}
+
 .middlecontainer {
   background-color: #EAE7C6;
+  padding-bottom: 50px;
   text-align: center;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
 }
 
 .topcontainer {
@@ -62,12 +127,14 @@ h3 {
 
 .cloud1 {
   position: absolute;
-  right: 20%;
+  right: 10%;
   top: 0;
 }
 
 .cloud2 {
   position: absolute;
-  left: 20%;
+  left: 10%;
   bottom: 320px;
 }
+
+#skills {}
